@@ -11,10 +11,7 @@
 
 local PlayerData = {}
 
-ESX = nil
 local gangs = {}
-
-TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 RegisterServerEvent("ld-gangs:server:parakesBallas")
 AddEventHandler("ld-gangs:server:parakesBallas", function(source)
