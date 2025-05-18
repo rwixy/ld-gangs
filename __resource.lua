@@ -16,3 +16,5 @@ server_scripts {
     'locales/tr.lua',
     'locales/en.lua'
 }
+
+shared_script '@es_extended/imports.lua'
